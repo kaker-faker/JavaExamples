@@ -6,6 +6,11 @@ public class Chapter1Problem1 {
 
     public static void main(String[] args) {
 
+        // 1.1
+        // Implement an algorithm to determine if a string has all unique characters.
+        // What if you cannot use additional data structures?
+        // example 1 with additional data structures
+
         System.out.println("Does string have duplicate characters?");
         // With
         System.out.println("Tes: " + hasDupLetters("tes"));
@@ -15,10 +20,6 @@ public class Chapter1Problem1 {
         System.out.println("Test: " + hasDupLetters2("test"));
     }
 
-    // 1.1
-    // Implement an algorithm to determine if a string has all unique characters.
-    // What if you cannot use additional data structures?
-    // example 1 with additional data structures
     public static boolean hasDupLetters(String myStr) {
 
         // loop through string
