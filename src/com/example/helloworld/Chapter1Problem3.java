@@ -18,7 +18,6 @@ public class Chapter1Problem3 {
 
     public static boolean isPermutation(String str1, String str2) {
 
-        String[] strArray = {str1, str2};
         char[] char1 = str1.toCharArray();
         Arrays.sort(char1);
         char[] char2 = str2.toCharArray();
